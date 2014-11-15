@@ -1,0 +1,30 @@
+html {
+	background-color: #DE9939;
+}
+
+h2 {
+	font-family: 'Josefin Slab', serif;
+	text-align: center;
+	font-size: 2.5rem;
+	margin: 1rem;
+}
+
+p {
+	text-align: center;
+	font-size: 1rem;
+	font-family: sans-serif;
+	font-weight: 200;
+	margin: 1rem;
+}
+
+a {
+	text-transform: none;
+	color: #000;
+}
+
+.icon {
+	width: 13rem;
+	position: relative;
+	display: block;
+	margin: auto;
+}
