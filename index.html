@@ -3,7 +3,9 @@
 <head>
   <meta charset="utf-8">
   <title>Iman Ghader · Graphic Designer · Ottawa, Canada</title>
+  <link href="css/reset.css" rel="stylesheet">
   <link href="css/general.css" rel="stylesheet">
+  <link rel="stylesheet" href="flexslider/flexslider.css" type="text/css">
   <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,600,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <meta name="description" content="Iman Ghader, Graphic Desiger based in Ottawa.">
   <!-- Facebook meta Tags, also for Pinterest -->
@@ -30,15 +32,89 @@
 
 </head>
   <body>
+      <div class="home" id="section-1">
+      <img class="logo" src="../imgs/logo.svg">
+      <nav class="nav" id="nav">
+        <ul>
+          <li class="current"><a href="#section-1">Home</a></li>
+          <li><a href="#section-2">About</a></li>
+          <li><a href="#section-3">Adventures</a></li>
+        </ul>
+      </nav>
+      <p class="slogan">Adventure begins here.</p>
+      </div>
 
-  <div class="home">
-  <!--<h1><img src="" alt="Iman Ghader, Designer"></h1>
-  <p>Place p containing important information about you</p>
-<!-- DO SCHEMA -->
+      <main>
+      <div class="about" id="section-2">
 
-	<h2>New adventures coming soon...</h2>
-	<p><a href="http://behance.net/imanghader">Click here</a> to view my work on Behance.</p>
-</div>
+        <div class="flexslider">
+          <ul class="slides">
+            <li>
+              <img src="../imgs/workholder.svg" />
+            </li>
+            <li>
+              <img src="../imgs/workholder.svg" />
+            </li>
+            <li>
+              <img src="../imgs/workholder.svg" />
+            </li>
+            <li>
+              <img src="../imgs/workholder.svg" />
+            </li>
+          </ul>
 
+        </div>
+
+        <h2>Who am I?</h2> 
+        <p>I’m not a problem solver, I’m an adventurer. Creating is my skill to adventure, to seek more knowledge, and in return live with meaning.</p>
+
+        <p>I am a creator because Design is only one aspect of creating that allows me to explore my own capabilities. Adventure to me is anything and everything, including your next project.</p>
+
+        <p>Your project is not a problem and I’m not the solution. It’s an adventure and together we are the story heroes.</p>
+
+        <p>Drop me a line here.</p>
+      </div> 
+
+      <div class="work" id="section-3">
+        <div>
+
+        </div>
+      </div> 
+
+
+    <!-- Import jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <!-- Import jQuery Flexslider plugin -->
+    <script src="js/jquery.flexslider-min.js"></script>
+    <!-- Fire/run the plugin (Tell it to GO!) -->
+    <script type="text/javascript" charset="utf-8">
+        $(window).load(function() {
+        $('.flexslider').flexslider({
+          animation: "slide",  
+          });
+        });
+    </script>
+  </main>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
