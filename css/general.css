@@ -54,7 +54,7 @@ main {
 
 .nav {
 	display: block;
-	margin: 0 auto;
+	margin: 10px auto;
 	text-align: center;
 }
 
@@ -68,7 +68,7 @@ main {
 .nav li {
 	list-style-type: none;
 	display: inline-block;
-	padding: 0.5rem;
+	padding: 0.4rem;
 	text-transform: uppercase;
 	font-weight: 600;
 }
@@ -100,15 +100,41 @@ a:active{
 	line-height: 1.7rem;
 }
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 20em) {
+	.slogan {
+		padding: 4rem 3rem 5rem;
+	}
+}
+
+@media only screen and (min-width: 30em) {
 	.logo {
-		width: 
+		max-width: 13rem;
+		height: 5rem;
+		padding: 0.3rem 0 0 0;
 	}
 
 	.nav {
 		font-size: 1.2rem;
+		margin: 1rem 0;
 	}
 
+	.slogan {
+		padding: 4rem 3rem 9rem;
+	}
+
+}
+
+@media only screen and (min-width: 60em) {
+	.slogan {
+		padding: 7rem 3rem 14rem;
+	}
+
+}
+
+@media only screen and (min-width: 90em) {
+	.slogan {
+		padding: 8rem 3rem 18rem;
+	}
 
 }
 
@@ -181,6 +207,15 @@ a:active {
 	border-bottom: 5px solid #000;
     width: 70%;
 }
+
+.port-images-wrap {
+	width: 100%;
+}
+
+.port-images-wrap li{
+	float: left;
+}
+
 
 @media only screen and (min-width: 25em) {	
 	.pieces p {
