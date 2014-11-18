@@ -62,6 +62,10 @@ h2, .peta {
 h3, .tera {
   font-size: 1.4238rem;
   line-height: 1.0535;
+  font-family: 'Josefin Slab';
+  text-transform: uppercase;
+  margin-top: 1rem;
+  font-weight: 600;
 }
 
 h4, .giga {
