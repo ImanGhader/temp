@@ -49,6 +49,15 @@ main {
 	margin: 0 auto;
 }
 
+.sticky {  
+    position: fixed;  
+    width: 100%;  
+    left: 0;  
+    top: 0;  
+    z-index: 100;  
+    border-top: 0;  
+}  
+
 .nav {
 	display: block;
 	margin: 0 auto;
@@ -138,7 +147,23 @@ a:active {
 	color: #fff;
 }
 
+/* /////////////////////////////////// Footer */
 
+footer li {
+	height: 3rem;
+	width: 3rem;
+	display: inline-block;
+	float: left;
+	margin-left: 1rem;
+}
+
+footer a:link {
+	width: 100%;
+}
+
+footer p {
+	margin-top: 1rem;
+}
 
 
 
