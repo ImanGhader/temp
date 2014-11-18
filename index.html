@@ -4,9 +4,14 @@
   <meta charset="utf-8">
   <title>Iman Ghader · Graphic Designer · Ottawa, Canada</title>
   <link href="css/reset.css" rel="stylesheet">
+  <link href="css/grids.css" rel="stylesheet">
   <link href="css/general.css" rel="stylesheet">
-  <link rel="stylesheet" href="flexslider/flexslider.css" type="text/css">
-  <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,600,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href="css/typography.css" rel="stylesheet">
+  <link href="flexslider/flexslider.css" rel="stylesheet" type="text/css">
+  
+  <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,600,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
   <meta name="description" content="Iman Ghader, Graphic Desiger based in Ottawa.">
   <!-- Facebook meta Tags, also for Pinterest -->
   <meta property="og:type" content="article">
@@ -32,22 +37,27 @@
 
 </head>
   <body>
-      <div class="home" id="section-1">
-      <img class="logo" src="../imgs/logo.svg">
-      <nav class="nav" id="nav">
-        <ul>
-          <li class="current"><a href="#section-1">Home</a></li>
-          <li><a href="#section-2">About</a></li>
-          <li><a href="#section-3">Adventures</a></li>
-        </ul>
-      </nav>
-      <p class="slogan">Adventure begins here.</p>
+    <main>
+      <div class="grid home" id="section-1">
+        <img class="logo unit unit-s-1" src="../imgs/logo.svg">
+        
+        <nav class="nav unit unit-s-1" id="nav">
+          <ul>
+            <li class="current"><a href="#section-1">Home</a></li>
+            <li><a href="#section-3">Work</a></li>
+            <li><a href="#section-2">About</a></li>
+          </ul>
+        </nav>
+        
+        <p class="slogan">Adventure begins here.</p>
       </div>
 
-      <main>
+<!--/////////////////////////////////////////////////////// About -->
+      
+      
       <div class="about" id="section-2">
 
-        <div class="flexslider">
+        <div class=" unit unit-s-1 flexslider">
           <ul class="slides">
             <li>
               <img src="../imgs/workholder.svg" />
@@ -62,25 +72,88 @@
               <img src="../imgs/workholder.svg" />
             </li>
           </ul>
-
         </div>
 
-        <h2>Who am I?</h2> 
-        <p>I’m not a problem solver, I’m an adventurer. Creating is my skill to adventure, to seek more knowledge, and in return live with meaning.</p>
+        <div class="unit unit-s-1">
+          <h2><strong>Who am I?</strong></h2> 
+          <p>I’m not a problem solver, I’m an adventurer. Creating is my skill to adventure, to seek more knowledge, and in return live with meaning.</p>
 
-        <p>I am a creator because Design is only one aspect of creating that allows me to explore my own capabilities. Adventure to me is anything and everything, including your next project.</p>
+          <p>I am a creator because Design is only one aspect of creating that allows me to explore my own capabilities. Adventure to me is anything and everything, including your next project.</p>
 
-        <p>Your project is not a problem and I’m not the solution. It’s an adventure and together we are the story heroes.</p>
+          <p>Your project is not a problem and I’m not the solution. It’s an adventure and together we are the story heroes.</p>
 
-        <p>Drop me a line here.</p>
+          <p>Drop me a line here.</p>
+        </div>
+
       </div> 
+
+<!--/////////////////////////////////////////////////////// Work -->
 
       <div class="work" id="section-3">
+        
         <div>
+          <h2 class="unit unit-s-1"><strong>My work</strong></h2> 
+          
+          <div class="unit unit-s-1">
+            <ul class="pieces milli">
+
+              <li>
+                <a href="iaw.html">
+                <img src="../imgs/workholder.svg">
+                <p class="caption">IAW Art direction and campaign.</p>
+                </a>
+              </li>
+
+              <li>
+                <a href="salam.html">
+                <img src="../imgs/workholder.svg">
+                <p>Salam Association Brand Identity.</p>
+                </a>
+              </li>
+
+              <li>
+                <a href="salam-site.html">
+                <img src="../imgs/workholder.svg">
+                <p>Salam Association Website</p>
+                </a>
+              </li>
+
+              <li>
+                <a href="bashai.html">
+                <img src="../imgs/workholder.svg">
+                <p>Bashai Tea package design.</p>
+                </a>
+              </li>
+
+              <li>
+                <a href="msa.html">
+                <img src="../imgs/workholder.svg">
+                <p>MSA Identity Rebrand.</p>
+                </a>
+              </li>
+
+              <li>
+                <a href="mbc.html">
+                <img src="../imgs/workholder.svg">
+                <p>MBC Action Bradcast Package</p>
+                </a>
+              </li>
+
+              <li>
+                <a href="iaw.html">
+                <img src="../imgs/workholder.svg">
+                <p>Izze Juice Campaign Design</p>
+                </a>
+              </li>
+
+            <ul>
+          </div>
 
         </div>
+
       </div> 
 
+<!--/////////////////////////////////////////////////////// End of work -->
 
     <!-- Import jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
@@ -94,8 +167,8 @@
           });
         });
     </script>
-  </main>
-</body>
+    </main>
+  </body>
 </html>
 
 

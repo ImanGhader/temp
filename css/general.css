@@ -19,7 +19,7 @@ html {
 html, body {
 	font-weight: 400;
 	width: 100%;
-	font-family: sans-serif;
+	font-family: 'Lato', sans-serif;
 	/*background-color: #DE9939;*/
 	background-color: #999;
 	margin: 0;
@@ -29,14 +29,9 @@ img {
 	width: 100%;
 }
 
-p {
-	margin-bottom: 1rem;
-}
-
 main {
-	width: 90%;
-	margin: 1rem auto;
-	overflow: auto;
+	width: 100%;
+	overflow: hidden;
 	height: auto;
 }
 
@@ -50,7 +45,7 @@ main {
 .logo{
 	width: 100%;
 	display: block;
-	padding: 1rem;
+	padding-top: 1rem;
 	margin: 0 auto;
 }
 
@@ -64,26 +59,47 @@ main {
 	width: 100%;
 	text-align: center;
 	padding-left: 0;
+	margin: auto;
 }
 
 .nav li {
 	list-style-type: none;
 	display: inline-block;
-	padding: 1rem;
+	padding: 0.5rem;
 	border: 1px;
 	border-style: solid;
-	
+	text-transform: uppercase;
+	font-weight: 600;	
+}
+
+.nav a {
+	text-decoration: none;
+	font-family: 'Josefin Slab'
+}
+
+.nav a:link, 
+a:visited {
+	color: #000;
+}
+
+.nav a:hover,
+a:active{
+	color: #fff;
 }
 
 .slogan {
 	text-align: center;
-	font-size: 2rem;
 	font-family: 'Josefin Slab', sans-serif;
-	font-weight: 300;
+	font-weight: 600;
+	position: relative;
 	text-transform: uppercase;
-	padding: 3rem;
+	padding: 1.8rem 3rem 4rem;
 	margin: 0;
+	font-size: 1.7rem;
+	line-height: 1.7rem;
+
 }
+/* /////////////////////////////////// About */
 
 .flexslider{
 	max-width: 45rem; /*720px*/
@@ -96,6 +112,33 @@ main {
 .flex-control-nav {
 	display: none;
 }
+
+/* /////////////////////////////////// Work */
+
+#section-3 {
+	background-color: #fff;
+	overflow: hidden;
+	padding-top: 1rem;
+}
+
+.pieces p{
+	text-transform: uppercase;
+	position: absolute;
+	margin-top: -2.5rem;
+}
+
+.pieces a:link,
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+.pieces a:hover,
+a:active {
+	color: #fff;
+}
+
+
 
 
 
