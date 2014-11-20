@@ -29,6 +29,7 @@ img {
 	width: 100%;
 }
 
+
 main {
 	width: 100%;
 	overflow: hidden;
@@ -50,7 +51,6 @@ main {
 	padding-top: 1rem;
 	margin: 0 auto;
 }
-
 
 .nav {
 	display: block;
@@ -100,43 +100,7 @@ a:active{
 	line-height: 1.7rem;
 }
 
-@media only screen and (min-width: 20em) {
-	.slogan {
-		padding: 4rem 3rem 5rem;
-	}
-}
 
-@media only screen and (min-width: 30em) {
-	.logo {
-		max-width: 13rem;
-		height: 5rem;
-		padding: 0.3rem 0 0 0;
-	}
-
-	.nav {
-		font-size: 1.2rem;
-		margin: 1rem 0;
-	}
-
-	.slogan {
-		padding: 4rem 3rem 9rem;
-	}
-
-}
-
-@media only screen and (min-width: 60em) {
-	.slogan {
-		padding: 7rem 3rem 14rem;
-	}
-
-}
-
-@media only screen and (min-width: 90em) {
-	.slogan {
-		padding: 8rem 3rem 18rem;
-	}
-
-}
 
 /* /////////////////////////////////// About */
 
@@ -163,6 +127,10 @@ a:active{
 	display: none;
 }
 
+.about-body {
+	max-width: 80%;
+	margin: 0 auto;
+}
 
 
 /* /////////////////////////////////// Work */
@@ -217,13 +185,6 @@ a:active {
 }
 
 
-@media only screen and (min-width: 25em) {	
-	.pieces p {
-		font-size: 0.5rem;
-	}
-}
-
-
 /* /////////////////////////////////// Footer */
 
 .icons li{
@@ -232,6 +193,7 @@ a:active {
 	display: inline-block;
 	float: left;
 	margin-left: 1rem;
+	margin-bottom: 1rem;
 }
 
 footer a:link {
@@ -242,6 +204,55 @@ footer p {
 	margin-top: 1rem;
 }
 
+
+@media only screen and (min-width: 20em) { /*320*/
+		padding: 4rem 3rem 5rem;
+	}
+}
+
+@media only screen and (min-width: 25em) { /*MEDIUM 400*/
+	.pieces p {
+		font-size: 0.5rem;
+	}
+}
+
+@media only screen and (min-width: 30em) { /*480*/
+	.logo {
+		max-width: 13rem;
+		height: 5rem;
+		padding: 0.3rem 0 0 0;
+	}
+
+	.nav {
+		font-size: 1.2rem;
+		margin: 1rem 0;
+	}
+
+	.slogan {
+		padding: 4rem 3rem 9rem;
+	}
+
+}
+
+@media only screen and (min-width: 38em) { /*LARGE 608*/	
+	.about-body {
+		margin-top: 1rem;
+	}
+}
+
+@media only screen and (min-width: 60em) { /*960*/
+	.slogan {
+		padding: 7rem 3rem 14rem;
+	}
+
+}
+
+@media only screen and (min-width: 90em) { /*1440*/
+	.slogan {
+		padding: 8rem 3rem 18rem;
+	}
+
+}
 
 
 

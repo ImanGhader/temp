@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6,
 p, ol, dl, dd, figure,
 blockquote, details, hr,
 fieldset, pre, table {
-  margin: 0 1rem 1rem 1rem;
+  margin: 0 1.5rem 1rem;
 }
 
 strong {
@@ -199,3 +199,5 @@ sub {
   padding-left: 3.0000rem;
   padding-right: 3.0000rem;
 }
+
+
