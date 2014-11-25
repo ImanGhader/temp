@@ -3,7 +3,7 @@ html {
   font-weight: 300;
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 30em) {
 
   html {
     font-size: 110%;
@@ -11,7 +11,7 @@ html {
 
 }
 
-@media only screen and (min-width: 90em) {
+@media only screen and (min-width: 60em) {
 
   html {
     font-size: 120%;
@@ -19,11 +19,12 @@ html {
 
 }
 
-@media only screen and (min-width: 120em) {
+@media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
   }
+
 
 }
 

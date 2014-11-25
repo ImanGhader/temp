@@ -103,6 +103,10 @@ a:active{
 
 
 /* /////////////////////////////////// About */
+#about {
+	padding-top: 1rem;
+}
+
 
 .about, 
 .footer {
@@ -132,6 +136,13 @@ a:active{
 	margin: 0 auto;
 }
 
+.icons li{
+	height: 1.5rem;
+	width: 1.5rem;
+	display: inline-block;
+	float: left;
+	margin-right: 1rem;
+}
 
 /* /////////////////////////////////// Work */
 
@@ -152,9 +163,7 @@ a:active{
 	margin-top: -2.5rem;
     text-decoration: none;
     display: inline-block;
-    border-bottom: 3px solid transparent;    
     width: 0px;
-    transition: 0.3s ease;
     white-space: nowrap;
     height: 25px;
 }
@@ -172,7 +181,6 @@ a:active {
 
 .pieces a:hover,
 a:active {
-	border-bottom: 5px solid #000;
     width: 70%;
 }
 
@@ -187,27 +195,29 @@ a:active {
 
 /* /////////////////////////////////// Footer */
 
-.icons li{
-	height: 3rem;
-	width: 3rem;
+.footer-icons li{
+	height: 1.5rem;
+	width: 1.5rem;
 	display: inline-block;
-	float: left;
+	float: right;
 	margin-left: 1rem;
 	margin-bottom: 1rem;
+	border-bottom: none;
+
 }
 
-footer a:link {
-	width: 100%;
-}
-
-footer p {
+footer {
 	margin-top: 1rem;
+}
+
+.footer-icons li:hover {
+	border-bottom: 5px solid #000;
+	margin-bottom: 0.5rem;
+
 }
 
 
 @media only screen and (min-width: 20em) { /*320*/
-		padding: 4rem 3rem 5rem;
-	}
 }
 
 @media only screen and (min-width: 25em) { /*MEDIUM 400*/
@@ -235,8 +245,8 @@ footer p {
 }
 
 @media only screen and (min-width: 38em) { /*LARGE 608*/	
-	.about-body {
-		margin-top: 1rem;
+	#about {
+		margin-top: 2rem;
 	}
 }
 
@@ -244,6 +254,7 @@ footer p {
 	.slogan {
 		padding: 7rem 3rem 14rem;
 	}
+
 
 }
 
