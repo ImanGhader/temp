@@ -6,7 +6,7 @@ html {
 @media only screen and (min-width: 30em) {
 
   html {
-    font-size: 110%;
+    font-size: 100%;
   }
 
 }
@@ -14,7 +14,11 @@ html {
 @media only screen and (min-width: 60em) {
 
   html {
-    font-size: 120%;
+    font-size: 110%;
+  }
+
+  h2 {
+    font-size: 20rem;
   }
 
 }
@@ -22,7 +26,7 @@ html {
 @media only screen and (min-width: 90em) {
 
   html {
-    font-size: 130%;
+    font-size: 120%;
   }
 
 
@@ -57,7 +61,6 @@ h1, .exa {
 h2, .peta {
   font-size: 1.6018rem;
   font-family: 'Josefin Slab';
-  text-transform: uppercase;
 }
 
 h3, .tera {
@@ -72,6 +75,7 @@ h3, .tera {
 h4, .giga {
   font-size: 1.2656rem;
   line-height: 1.1852;
+  font-family: 'Josefin Slab';
 }
 
 h5, .mega {
