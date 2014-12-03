@@ -4,9 +4,10 @@
   <meta charset="utf-8">
   <title>Iman Ghader · Graphic Designer · Ottawa, Canada</title>
   <link href="css/reset.css" rel="stylesheet">
+  <link href="css/grids.css" rel="stylesheet">
   <link href="css/typography.css" rel="stylesheet">
   <link href="css/general.css" rel="stylesheet">
-  <link href="css/grids.css" rel="stylesheet">
+
   <link href="flexslider/flexslider.css" rel="stylesheet" type="text/css">
   
   <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,600,700' rel='stylesheet' type='text/css'>
@@ -57,9 +58,9 @@
 
       </header>
 
-    <div class="home-banner slogan">
+    <div class="home-banner slogan unit unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
       <img src="imgs/goggles.svg">
-      <p class="unit unit-s-1">Adventure begins here.</p>
+      <p>Adventure begins here.</p>
     </div>
 
 <!--/////////////////////////////////////////////////////// About -->
@@ -125,7 +126,7 @@
       <div class="work grid" id="section-3">
         
         <div class="work-banner unit unit-s-1 unit-m-1 unit-l-1">
-          <h2>What I do.</h2>
+          <h2 class="yotta">What I do.</h2>
         </div>
         
         <div class="pieces">
@@ -207,7 +208,7 @@
       </div>
 
 <!--/////////////////////////////////////////////////////// Footer -->
-    <footer class="grid">
+    <footer class="grid pad-top">
         <div class="unit unit-s-1 unit-m-1-2 unit-l-2">
           <p>© Iman Ghader 2014</p>
         </div>
@@ -231,20 +232,11 @@
           </ul>
     </footer>
 
-     <script src="js/main.js"></script>
-    <!-- Import jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-    <!-- Import jQuery Flexslider plugin -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="js/jquery.flexslider-min.js"></script>
-    <!-- Fire/run the plugin (Tell it to GO!) -->
-    <script type="text/javascript" charset="utf-8">
-        $(window).load(function() {
-        $('.flexslider').flexslider({
-          animation: "slide",  
-          });
-        });
-    </script>
     <script src="js/waypoints.min.js"></script>
+    <script src="js/main.js"></script>
+
     </main>
   </body>
 </html>

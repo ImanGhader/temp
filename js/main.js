@@ -1,10 +1,10 @@
 var $win = $(window);
-var $homeBanner = $('.home-banner');
+var $homeBanner = $('.slogan');
 
 $win.on('scroll', function () {
 	var scrollPos = $win.scrollTop();
 
-	$homeBanner.css('background-position', 'center' + scrollPos / 6 + 'px')
+	$homeBanner.css('background-position', 'center ' + scrollPos / 2 + 'px');
 
 });
 
