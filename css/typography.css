@@ -59,7 +59,7 @@ h1, .exa {
 }
 
 h2, .peta {
-  font-size: 1.6018rem;
+  font-size: 2rem;
   font-family: 'Josefin Slab';
 }
 
@@ -203,6 +203,15 @@ sub {
 .gutter-double, .gutter-2 {
   padding-left: 3.0000rem;
   padding-right: 3.0000rem;
+}
+
+@media only screen and (min-width: 30em) {
+
+  h2, .peta {
+  font-size: 5rem;
+  font-family: 'Josefin Slab';
+}
+
 }
 
 

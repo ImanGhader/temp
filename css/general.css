@@ -45,12 +45,12 @@ header {
 	width: 10rem;
 	max-width: 20rem;
 	display: block;
-	margin: 1rem auto;
+	margin: 0.3rem auto 0.7rem;
 }
 
 .nav {
 	display: block;
-	margin: 0 auto 0.5rem;
+	margin: 2rem auto 0.5rem;
 	text-align: center;
 }
 
@@ -97,7 +97,7 @@ a:active{
 	font-weight: 600;
 	position: relative;
 	text-transform: uppercase;
-	padding: 5rem 3rem 5rem;
+	padding: 9rem 3rem ;
 	margin: 0 auto;
 	font-size: 1rem;
 	line-height: 1.7rem;
@@ -221,9 +221,10 @@ li a:active {
 	float: left;
 }
 
+
 /* //////////////////////////////////// How */
 
-#section-4 {
+#how {
 	overflow: hidden;
 	margin-bottom: 1rem;
 }
@@ -240,6 +241,24 @@ li a:active {
 	text-align: center;
 }
 
+/*///////////////////////////////////////////////////////////// Talk */
+
+#talk {
+	overflow: hidden;
+	margin-bottom: 1rem;
+}
+
+.talk-banner {
+	background: transparent url(../imgs/how-banner.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.talk-banner h2 {
+	color: #fff;
+	display: block;
+	padding: 5rem 3rem;
+	text-align: center;
+}
 
 /* /////////////////////////////////// Footer */
 
@@ -283,6 +302,7 @@ footer li{
 	.nav {
 		font-size: 1.2rem;
 		margin: 1rem 0;
+		text-align: right;
 	}
 
 	.slogan {
