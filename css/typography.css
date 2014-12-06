@@ -32,11 +32,12 @@ html {
 
 }
 
-h1, h2, h3, h4, h5, h6,
+h1, h3, h4, h5, h6,
 p, ol, dl, dd, figure,
 blockquote, details, hr,
 fieldset, pre, table {
   margin: 0 1.5rem 1rem;
+  line-height: 1.5rem;
 }
 
 strong {
@@ -205,10 +206,10 @@ sub {
   padding-right: 3.0000rem;
 }
 
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 50em) {
 
   h2, .peta {
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: 'Josefin Slab';
 }
 

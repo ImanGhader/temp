@@ -161,7 +161,7 @@ a:active{
 
 /* /////////////////////////////////// Work */
 
-#section-3 {
+#work {
 	overflow: hidden;
 }
 
@@ -219,6 +219,10 @@ li a:active {
 
 .port-images-wrap li{
 	float: left;
+}
+
+.pieces img {
+
 }
 
 
@@ -305,16 +309,16 @@ footer li{
 		text-align: right;
 	}
 
-	.slogan {
-		margin-top: 6rem;
+	.home-banner {
+		margin-top: 4rem;
 	}
 
 	.slogan p {
-		
+		font-size: 2rem;
 	}
 
 	.slogan img {
-		
+		width: 8rem;
 	}
 
 	header {
@@ -341,7 +345,7 @@ footer li{
 
 @media only screen and (min-width: 90em) { /*1440*/
 	.slogan {
-		padding: 8rem 3rem 18rem;
+		padding: 13rem 3rem 18rem;
 	}
 
 }
