@@ -74,9 +74,11 @@ h3, .tera {
 }
 
 h4, .giga {
-  font-size: 1.2656rem;
+  font-size: 1.5rem;
   line-height: 1.1852;
   font-family: 'Josefin Slab';
+  color: #fff;
+  text-align: center;
 }
 
 h5, .mega {

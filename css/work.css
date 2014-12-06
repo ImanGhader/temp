@@ -22,26 +22,6 @@
 }
 
 @media only screen and (min-width: 30em) { /*480*/
-	.logo {
-		max-width: 13rem;
-		height: 4rem;
-	}
-
-	.nav {
-		font-size: 1.2rem;
-		padding: 0.2rem 0;
-	}
-
-	.slogan {
-		margin-top: 6rem;
-	}
-
-	header {
-		position: fixed;
-		width: 100%;
-		z-index: 100;
-		top: 0;
-	}
 
 	.iaw-banner {
 		margin-top: 5rem;

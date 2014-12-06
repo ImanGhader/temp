@@ -50,7 +50,7 @@ header {
 
 .nav {
 	display: block;
-	margin: 2rem auto 0.5rem;
+	margin: 0.5rem auto 0.5rem;
 	text-align: center;
 }
 
@@ -67,6 +67,7 @@ header {
 	padding: 0.4rem;
 	text-transform: lowercase;
 	font-weight: 400;
+	margin: 0 1rem 0 1rem;
 }
 
 .nav a {
@@ -247,21 +248,169 @@ li a:active {
 
 /*///////////////////////////////////////////////////////////// Talk */
 
-#talk {
+#contact {
 	overflow: hidden;
-	margin-bottom: 1rem;
 }
 
-.talk-banner {
+.contact-banner {
 	background: transparent url(../imgs/how-banner.jpg) no-repeat center center;
 	background-size: cover;
 }
 
-.talk-banner h2 {
+.contact-banner h2 {
 	color: #fff;
 	display: block;
-	padding: 5rem 3rem;
+	padding: 4rem 3rem 1rem;
 	text-align: center;
+}
+
+#form-main{
+	width:100%;
+	padding-top:0px;
+}
+
+#form-div {
+	display: block;
+	padding: 35px 50px 35px 35px;
+	width: 450px;
+	left: 50%;
+  	margin: 0 auto;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+.feedback-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #3498db;
+	color: #3498db;
+	outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused{
+	color:#30aed6;
+	border:#30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#name:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#comment{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+
+#button-blue{
+	float:left;
+	width: 100%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #e3a24a;
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+#button-blue:hover{
+	background-color: rgba(0,0,0,0);
+	color: #3c3e6d;
+}
+	
+.submit:hover {
+	color: #3c3e6d;
+}
+	
+.ease {
+	width: 0px;
+	height: 74px;
+	background-color: #fbfbfb;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
 }
 
 /* /////////////////////////////////// Footer */
@@ -293,14 +442,25 @@ footer li{
 @media only screen and (min-width: 20em) { /*320*/
 }
 
-@media only screen and (min-width: 25em) { /*MEDIUM 400*/
-
-}
-
 @media only screen and (min-width: 30em) { /*480*/
+
+	.slogan p {
+		font-size: 2rem;
+		line-height: 2rem;
+	}
+
+	.slogan img {
+		width: 8rem;
+	}
+
+	.home-banner {
+		margin-top: 4rem;
+	}
+
 	.logo {
 		max-width: 13rem;
 		height: 4rem;
+		margin: 1rem 0 1rem 1rem;
 	}
 
 	.nav {
@@ -309,16 +469,9 @@ footer li{
 		text-align: right;
 	}
 
-	.home-banner {
-		margin-top: 4rem;
-	}
-
-	.slogan p {
-		font-size: 2rem;
-	}
-
-	.slogan img {
-		width: 8rem;
+	.nav li {
+		margin: 1rem 0.2rem 0 0.2rem;
+		text-align: right;
 	}
 
 	header {
@@ -333,19 +486,34 @@ footer li{
 	#about {
 		margin-top: 2rem;
 	}
-}
 
-@media only screen and (min-width: 60em) { /*960*/
-	.slogan {
-		padding: 7rem 3rem 14rem;
+	.logo {
+		margin: 1rem 0 1rem 2rem;
 	}
 
+	.nav li {
+		margin-left: 0.5rem;
+	}
+}
+
+@media only screen and (min-width: 60em) { /*X-LARGE 960*/
+	.slogan {
+		padding: 14rem 3rem 14rem;
+	}
+
+	.nav li {
+		margin-left: 1rem;
+	}
 
 }
 
 @media only screen and (min-width: 90em) { /*1440*/
 	.slogan {
 		padding: 13rem 3rem 18rem;
+	}
+
+	.nav li {
+		margin-left: 1.5rem;
 	}
 
 }
