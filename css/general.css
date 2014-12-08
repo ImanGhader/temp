@@ -185,7 +185,7 @@ a:active{
 }
 
 .pieces {
-	padding: 2rem 3rem;
+	padding: 1rem 1rem;
 }
 
 .pieces li {
@@ -227,10 +227,6 @@ li a:active {
 
 .port-images-wrap li{
 	float: left;
-}
-
-.pieces img {
-
 }
 
 
@@ -423,23 +419,36 @@ input:focus, textarea:focus {
 footer {
 	background-color: #3c3e6d;
 	color: #fff;
+	text-align: center;
 }
 
-footer li{
-	height: 1.5rem;
-	width: 1.5rem;
+footer ul {
+	width: 100%;
+    text-align: center;
+    padding: 0 auto;
+    margin-bottom: 0.5rem;
+}
+
+footer li {
 	display: inline-block;
-	float: right;
-	margin-left: 1rem;
-	margin-bottom: 1rem;
-	border-bottom: none;
-
 }
 
+footer li a, 
+footer li a:link
+footer li a:visited{
+	height: 2.5rem;
+	width: 2.5rem;
+	display: inline-block;
+	margin: 0 0.5rem;
+	padding: 0.6rem;
+	border: 1px solid #fff;
+	border-radius: 20px;
+}
 
-.footer-icons li:hover {
-	margin-bottom: 0.5rem;
-
+footer li a:hover,
+footer li a:focus,
+footer li a:active {
+	border-radius: 3px solid #fff;
 }
 
 
@@ -512,6 +521,10 @@ footer li{
 	.nav li {
 		margin-left: 0.5rem;
 	}
+
+	.email a {
+		font-size: 2rem;
+	}
 }
 
 @media only screen and (min-width: 70em) { /*X-LARGE 960*/
@@ -521,6 +534,10 @@ footer li{
 
 	.nav li {
 		margin-left: 1rem;
+	}
+
+	.email a {
+		font-size: 4rem;
 	}
 
 }

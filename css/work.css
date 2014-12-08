@@ -6,13 +6,14 @@
 .iaw-banner h2 {
 	color: #fff;
 	display: block;
-	padding: 15rem 3rem;
+	padding: 13rem 3rem;
 	text-align: center;
 }
 
 .work-text {
 	max-width: 42rem;
 	margin: 5rem auto;
+	border-left: 3px solid #e3a24a;
 }
 
 .work-imgs {
@@ -27,4 +28,18 @@
 		margin-top: 5rem;
 	}
 
+	.work-text {
+		margin: 8rem auto;
+	}
+
+}
+
+@media only screen and (min-width: 90em) { /*1440*/
+	.iaw-banner h2 {
+		padding: 20rem 3rem;
+	}
+
+	.work-text {
+		margin: 15rem auto;
+	}
 }
