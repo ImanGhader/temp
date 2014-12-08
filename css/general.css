@@ -28,6 +28,12 @@ img {
 	width: 100%;
 }
 
+.img-flex {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
 
 main {
 	width: 100%;
@@ -67,7 +73,7 @@ header {
 	padding: 0.4rem;
 	text-transform: lowercase;
 	font-weight: 400;
-	margin: 0 1rem 0 1rem;
+	margin: 0 0.6rem 0 0.6rem;
 }
 
 .nav a {
@@ -146,8 +152,8 @@ a:active{
 	display: none;
 }
 
-.about-body {
-	max-width: 40rem;
+.text {
+	max-width: 43rem;
 	margin: 1rem auto;
 	text-align: center;
 	overflow: hidden;
@@ -187,6 +193,7 @@ a:active{
 	float: left;
 	position: relative;
 }
+
 
 .pieces p{
 	position: absolute;
@@ -231,7 +238,6 @@ li a:active {
 
 #how {
 	overflow: hidden;
-	margin-bottom: 1rem;
 }
 
 .how-banner {
@@ -255,16 +261,23 @@ li a:active {
 .contact-banner {
 	background: transparent url(../imgs/how-banner.jpg) no-repeat center center;
 	background-size: cover;
+	padding: 4rem 3rem 4rem;
+
 }
 
-.contact-banner h2 {
+.email a:link {
+	text-decoration: none;
 	color: #fff;
 	display: block;
-	padding: 4rem 3rem 1rem;
 	text-align: center;
 }
 
-#form-main{
+.email a:hover {
+	color: #e3a24a;
+	cursor: pointer;
+}
+
+/*#form-main{
 	width:100%;
 	padding-top:0px;
 }
@@ -272,7 +285,7 @@ li a:active {
 #form-div {
 	display: block;
 	padding: 35px 50px 35px 35px;
-	width: 450px;
+	width: 350px;
 	left: 50%;
   	margin: 0 auto;
   -moz-border-radius: 7px;
@@ -281,8 +294,7 @@ li a:active {
 
 .feedback-input {
 	color:#3c3c3c;
-	font-family: Helvetica, Arial, sans-serif;
-  font-weight:500;
+  	font-weight: 500;
 	font-size: 18px;
 	border-radius: 0;
 	line-height: 22px;
@@ -311,16 +323,20 @@ li a:active {
 	border:#30aed6 solid 3px;
 }
 
-/* Icons ---------------------------------- */
+#form-div p {
+	margin: 0;
+}
+
+/* Icons ---------------------------------- 
 #name{
-	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-image: url(../imgs/icons/name.svg);
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
 #name:focus{
-	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-image: url(../imgs/icons/name.svg);
 	background-size: 30px 30px;
 	background-position: 8px 5px;
   background-position: 11px 8px;
@@ -328,21 +344,21 @@ li a:active {
 }
 
 #email{
-	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-image: url(../imgs/icons/email.svg);
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
 #email:focus{
-	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-image: url(../imgs/icons/email.svg);
 	background-size: 30px 30px;
   background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
 #comment{
-	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-image: url(../imgs/icons/comment.svg);
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
@@ -402,21 +418,9 @@ input:focus, textarea:focus {
   background-color:white;
 }
 
-@media only screen and (max-width: 580px) {
-	#form-div{
-		left: 3%;
-		margin-right: 3%;
-		width: 88%;
-		margin-left: 0;
-		padding-left: 3%;
-		padding-right: 3%;
-	}
-}
-
-/* /////////////////////////////////// Footer */
+/////////////////////////////////// Footer */
 
 footer {
-	margin-top: 2rem;
 	background-color: #3c3e6d;
 	color: #fff;
 }
@@ -439,7 +443,13 @@ footer li{
 }
 
 
-@media only screen and (min-width: 20em) { /*320*/
+@media only screen and (min-width: 10em) { /*160*/
+	#form-div{
+		margin: 1rem auto 0 ;
+		width: 350px;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
 }
 
 @media only screen and (min-width: 30em) { /*480*/
@@ -480,6 +490,14 @@ footer li{
 		z-index: 100;
 	}
 
+	#form-div{
+		margin: 1rem auto 0 ;
+		width: 70%;
+		max-width: 850px;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+
 }
 
 @media only screen and (min-width: 38em) { /*LARGE 608*/	
@@ -496,7 +514,7 @@ footer li{
 	}
 }
 
-@media only screen and (min-width: 60em) { /*X-LARGE 960*/
+@media only screen and (min-width: 70em) { /*X-LARGE 960*/
 	.slogan {
 		padding: 14rem 3rem 14rem;
 	}
