@@ -3,7 +3,49 @@
 	background-size: cover;
 }
 
-.iaw-banner h2 {
+.salam-banner {
+	background: transparent url(../imgs/work/salam-banner.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.bashai-banner {
+	background: transparent url(../imgs/work/bashai-banner.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.beasts-banner {
+	background: transparent url(../imgs/work/beasts-banner.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.izze-banner {
+	background: transparent url(../imgs/work/izze-banner.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.mbc-banner {
+	background: transparent url(../imgs/work/mbc-banner.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.mixme-banner {
+	background: transparent url(../imgs/work/mixme-banner.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.salam-site-banner {
+	background: transparent url(../imgs/work/salam-site-banner.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.iaw-banner h2,
+.salam-banner h2,
+.bashai-banner h2,
+.beasts-banner h2,
+.izze-banner h2,
+.mbc-banner h2,
+.mixme-banner h2,
+.salam-site-banner h2{
 	color: #fff;
 	display: block;
 	padding: 13rem 3rem;
@@ -18,13 +60,27 @@
 
 .work-imgs {
 	max-width: 45rem;
-	margin: 0 auto;
+	margin: 0 auto 1rem;
 	display: block;
+}
+
+.video {
+	width: 100%;
+	max-width: 40rem;
+	display: block;
+	margin: 0 auto 1rem;
 }
 
 @media only screen and (min-width: 30em) { /*480*/
 
-	.iaw-banner {
+	.iaw-banner,
+	.salam-banner,
+	.bashai-banner,
+	.beasts-banner,
+	.izze-banner,
+	.mbc-banner,
+	.mixme-banner,
+	.salam-site-banner {
 		margin-top: 5rem;
 	}
 
@@ -35,7 +91,14 @@
 }
 
 @media only screen and (min-width: 90em) { /*1440*/
-	.iaw-banner h2 {
+	.iaw-banner h2,
+	.salam-banner h2,
+	.bashai-banner h2,
+	.beasts-banner h2,
+	.izze-banner h2,
+	.mbc-banner h2,
+	.mixme-banner h2,
+	.salam-site-banner h2{
 		padding: 20rem 3rem;
 	}
 
