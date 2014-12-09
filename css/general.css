@@ -450,6 +450,31 @@ footer li a:active {
 	background-color: rgba(255,255,255,0.5);
 }
 
+/*/////////////////////////////////////////////////// 404 */
+
+strike {
+	text-decoration: line-through;
+}
+
+.page-404 {
+	display: block;
+	position: relative;
+	margin: 3rem 5rem;
+}
+
+.page-404 img {
+	width: 10rem;
+}
+
+.page-404 h2 {
+	margin: 0 0 1.5rem 1.5rem;
+}
+
+.text-404 {
+	border-left: 3px solid #e3a24a;
+	margin-left: 2rem;
+}
+
 @media only screen and (min-width: 10em) { /*160*/
 	#form-div{
 		margin: 1rem auto 0 ;
