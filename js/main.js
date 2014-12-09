@@ -12,7 +12,7 @@ if (window.screen.width >= 480) {
 		
 		var scrollPos = $win.scrollTop();
 		var workPos = (scrollPos - workBannerOffset.top) / 4;
-		var howPos = (scrollPos - howBannerOffset.top) / 6;
+		var howPos = (scrollPos - howBannerOffset.top) / 4;
 
 		$homeBanner.css('background-position', 'center ' + scrollPos / 2 + 'px');
 		$workBanner.css('background-position', 'center ' + workPos + 'px');
