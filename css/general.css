@@ -49,7 +49,6 @@ header {
 
 .logo{
 	width: 10rem;
-	max-width: 20rem;
 	display: block;
 	margin: 0.3rem auto 0.7rem;
 }
@@ -63,8 +62,6 @@ header {
 .nav ul {
 	width: 100%;
 	text-align: center;
-	padding-left: 0;
-	margin: auto;
 }
 
 .nav li {
@@ -154,9 +151,10 @@ a:active{
 
 .text {
 	max-width: 43rem;
-	margin: 1rem auto;
+	margin: 2rem auto;
 	text-align: center;
 	overflow: hidden;
+	font-size: 1rem;
 }
 
 .icons li{
@@ -431,26 +429,26 @@ footer ul {
 
 footer li {
 	display: inline-block;
+	margin: 0 0.3rem;
+
 }
 
 footer li a, 
 footer li a:link
 footer li a:visited{
-	height: 2.5rem;
-	width: 2.5rem;
+	height: 2rem;
+	width: 2rem;
 	display: inline-block;
-	margin: 0 0.5rem;
-	padding: 0.6rem;
+	padding: 0.5rem;
 	border: 1px solid #fff;
-	border-radius: 20px;
+	border-radius: 40px;
 }
 
 footer li a:hover,
 footer li a:focus,
 footer li a:active {
-	border-radius: 3px solid #fff;
+	background-color: rgba(255,255,255,0.5);
 }
-
 
 @media only screen and (min-width: 10em) { /*160*/
 	#form-div{
@@ -458,6 +456,11 @@ footer li a:active {
 		width: 350px;
 		padding-left: 3%;
 		padding-right: 3%;
+	}
+
+	.nav li {
+		margin: 0.4rem 0.2rem 0 0.2rem;
+
 	}
 }
 
@@ -478,18 +481,18 @@ footer li a:active {
 
 	.logo {
 		max-width: 13rem;
-		height: 4rem;
-		margin: 1rem 0 1rem 1rem;
+		width: 8rem;
+		margin: 0.5rem 0 0.5rem 0.5rem;
 	}
 
 	.nav {
 		font-size: 1.2rem;
-		margin: 1rem 0;
+		margin: 0.5rem 0;
 		text-align: right;
 	}
 
 	.nav li {
-		margin: 1rem 0.2rem 0 0.2rem;
+		margin: 0.4rem 0.3rem 0 0.3rem;
 		text-align: right;
 	}
 
@@ -497,6 +500,7 @@ footer li a:active {
 		position: fixed;
 		width: 100%;
 		z-index: 100;
+		overflow: hidden;
 	}
 
 	#form-div{
@@ -507,23 +511,47 @@ footer li a:active {
 		padding-right: 3%;
 	}
 
+	.anchor{
+	  display: block;
+	  height: 106px; /*same height as header*/
+	  margin-top: -106px; /*same height as header*/
+	  visibility: hidden;
+	}
+
+	footer {
+		text-align: left;
+	}
+
 }
 
 @media only screen and (min-width: 38em) { /*LARGE 608*/	
-	#about {
-		margin-top: 2rem;
+	.text {
+		margin: 10rem auto 10rem;
 	}
 
 	.logo {
-		margin: 1rem 0 1rem 2rem;
+		width: 10rem;
+		margin-left: 1rem;
+	}
+
+	footer p {
+		margin-left: 2rem;
 	}
 
 	.nav li {
-		margin-left: 0.5rem;
+		margin-top: 0.8rem;
+		margin-left: 1rem;
 	}
 
 	.email a {
 		font-size: 2rem;
+	}
+
+	.anchor{
+	  display: block;
+	  height: 106px; /*same height as header*/
+	  margin-top: -106px; /*same height as header*/
+	  visibility: hidden;
 	}
 }
 
@@ -540,6 +568,17 @@ footer li a:active {
 		font-size: 4rem;
 	}
 
+	.logo {
+		margin-left: 2rem;
+	}
+
+	.anchor{
+	  display: block;
+	  height: 115px; /*same height as header*/
+	  margin-top: -115px; /*same height as header*/
+	  visibility: hidden;
+	}
+
 }
 
 @media only screen and (min-width: 90em) { /*1440*/
@@ -549,6 +588,14 @@ footer li a:active {
 
 	.nav li {
 		margin-left: 1.5rem;
+	}
+
+	.logo {
+		margin-left: 13rem;
+	}
+
+	footer p {
+		margin-left: 13rem;
 	}
 
 }
