@@ -92,6 +92,9 @@ a:active{
 .home-banner {
 	background: transparent url(../imgs/home-banner.jpg) no-repeat center center; 
 	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 
 
@@ -173,6 +176,9 @@ a:active{
 .work-banner {
 	background: transparent url(../imgs/work-banner.jpg) no-repeat center center;
 	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 
 .work-banner h2 {
@@ -237,6 +243,9 @@ li a:active {
 .how-banner {
 	background: transparent url(../imgs/how-banner.jpg) no-repeat center center;
 	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 
 .how-banner h2 {
@@ -256,6 +265,9 @@ li a:active {
 	background: transparent url(../imgs/how-banner.jpg) no-repeat center center;
 	background-size: cover;
 	padding: 4rem 3rem 4rem;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 
 }
 
