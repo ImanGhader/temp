@@ -121,6 +121,10 @@ a:active{
 	margin: 0 auto;
 }
 
+.down-button {
+	color: none;
+	width: 0.2rem;
+}
 
 
 /* /////////////////////////////////// About */
@@ -581,8 +585,8 @@ strike {
 
 	.anchor{
 	  display: block;
-	  height: 106px; /*same height as header*/
-	  margin-top: -106px; /*same height as header*/
+	  height: 75px; /*same height as header*/
+	  margin-top: -75px; /*same height as header*/
 	  visibility: hidden;
 	}
 
@@ -617,8 +621,8 @@ strike {
 
 	.anchor{
 	  display: block;
-	  height: 106px; /*same height as header*/
-	  margin-top: -106px; /*same height as header*/
+	  height: 88px; /*same height as header*/
+	  margin-top: -88px; /*same height as header*/
 	  visibility: hidden;
 	}
 }
@@ -642,8 +646,8 @@ strike {
 
 	.anchor{
 	  display: block;
-	  height: 115px; /*same height as header*/
-	  margin-top: -115px; /*same height as header*/
+	  height: 94px; /*same height as header*/
+	  margin-top: -94px; /*same height as header*/
 	  visibility: hidden;
 	}
 
